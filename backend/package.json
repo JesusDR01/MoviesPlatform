@@ -1,0 +1,16 @@
+{
+    "name": "api-server-flask",
+    "version": "1.0.0",
+    "description": "Open-source Flask API Server",
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/"
+    },
+    "author": "Jesús Díaz Rivas",
+    "engines": {
+        "node": ">=10.0.0"
+    },
+    "dependencies": {},
+    "devDependencies": {}
+}

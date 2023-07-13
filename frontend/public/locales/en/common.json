@@ -1,0 +1,30 @@
+{
+  "English": "English",
+  "Spanish": "Spanish",
+  "Header": "Movies App",
+  "movies": "Movies",
+  "loading": "Loading...",
+  "noResults": "No movies found",
+  "form": {
+    "actions": {
+      "update": "Update",
+      "create": "Create",
+      "delete": "Delete",
+      "cancel": "Cancel",
+      "deleteWarning": "Are you sure that you want to delete this movie?",
+      "updateSuccess": "Movie updated successfully",
+      "reset": "Reset filters"
+    },
+    "values": {
+      "name": "Name",
+      "year": "Year",
+      "rating": "Rating"
+    },
+    "errors": {
+      "name": "Please input the movie name",
+      "director": "Please input the movie director",
+      "rating": "Please input the mean rating",
+      "year": "Please input a positive year"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "movieID": "1",
+    "name": "updated name",
+    "director": "John doe",
+    "year": 2023,
+    "mean_rating": 2023
+  }
+]

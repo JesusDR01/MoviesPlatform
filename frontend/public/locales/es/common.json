@@ -1,0 +1,30 @@
+{
+  "English": "Inglés",
+  "Spanish": "Español",
+  "Header": "Aplicación de películas",
+  "movies": "Películas",
+  "loading": "Cargando...",
+  "noResults": "No se han encontrado películas",
+  "form": {
+    "actions": {
+      "update": "Actualizar",
+      "create": "Crear",
+      "delete": "Eliminar",
+      "cancel": "Cancelar",
+      "deleteWarning": "Estás seguro que quieres eliminar esta película?",
+      "updateSuccess": "Película actualizada con éxito",
+      "reset": "Reiniciar filtros"
+    },
+    "values": {
+      "name": "Nombre",
+      "year": "Año",
+      "rating": "Calificación"
+    },
+    "errors":{
+      "name": "Por favor introduce el nombre de la película",
+      "director": "Por favor introduce el nombre del director",
+      "rating": "Por favor introduce una calificación entre 1 y 5",
+      "year": "Por favor introduce un año positivo"
+    }
+  }
+}
