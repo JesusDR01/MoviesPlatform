@@ -46,7 +46,7 @@ const MovieList = () => {
   } = useGetMovies({
     filters,
   })
-  const { ref, inView } = useInView()
+  const { ref: nextPageRef, inView } = useInView()
 
   useEffect(() => {
     if (inView) {
@@ -94,7 +94,7 @@ const MovieList = () => {
       setOpenError(true)
     },
   })
-  
+
   useEffect(() => {
     setUpdatedMovieData(updatedMovie)
   }, [updatedMovie])
@@ -263,7 +263,7 @@ const MovieList = () => {
               {error}
             </Alert>
           </Snackbar>
-          <div ref={ref}></div>
+          <div ref={nextPageRef}></div>
         </>
       )}
     </div>
